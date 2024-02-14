@@ -75,3 +75,20 @@ body {
 .input-text {
     margin: 15px 0px;
 }
+
+.calculate {
+    background: var(--linear-gradient);
+    border: none;
+    color: var(--color-neutral-1);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color .5s ease;
+}
+
+.calculate:hover {
+    background-color: var(--color-primary-2);
+}
