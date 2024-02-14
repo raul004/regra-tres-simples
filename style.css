@@ -46,6 +46,16 @@ body {
     justify-content: center;
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
 .input-group > input {
     background-color: var(--color-neutral-2);
     color: var(--color-neutral-1);
