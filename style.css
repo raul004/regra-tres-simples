@@ -35,3 +35,43 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+.input-container {
+    margin: 25px 0px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group > input {
+    background-color: var(--color-neutral-2);
+    color: var(--color-neutral-1);
+    padding: 8px;
+    border: 1px solid var(--color-primary-1);
+    border-radius: 8px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-group > input:focus-visible {
+    outline: transparent;
+}
+
+.input-group > span {
+    background-color: var(--color-neutral-2);
+    padding: 0 15px;
+}
+
+.input-group > .result {
+    background: var(--linear-gradient);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.input-text {
+    margin: 15px 0px;
+}
