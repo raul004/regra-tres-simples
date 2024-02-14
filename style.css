@@ -26,3 +26,12 @@ body {
     min-height: 100vh;
     background: var(--linear-gradient);
 }
+
+.calculator {
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.323);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
