@@ -13,9 +13,9 @@
 
         <div class="input-container">
             <div class="input-group">    
-                <input type="number" class="num1" placeholder="A">
+                <input type="number" class="num1" name="entrada" placeholder="A">
                 <span>esta para</span>
-                <input type="number" class="num2" placeholder="B">
+                <input type="number" class="num2" name="entrada" placeholder="B">
             </div>
 
             <p class="input-text">
@@ -23,7 +23,7 @@
             </p>
 
             <div class="input-group">
-                <input type="number" class="num3" placeholder="C">
+                <input type="number" class="num3" name="entrada" placeholder="C">
                 <span>esta para</span>
                 <p class="result">
                     <i class="fa-solid fa-xmark"></i>
@@ -31,8 +31,12 @@
             </div>
         </div>
 
-        <button class="calculate">
+        <button class="btn-style calculate">
             Calcular
+        </button>
+
+        <button class="btn-style reset none">
+            Resetar
         </button>
     </div>
     <script src="./script.js"></script>

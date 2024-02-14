@@ -91,7 +91,7 @@ input[type=number] {
     margin: 15px 0px;
 }
 
-.calculate {
+.btn-style {
     background: var(--linear-gradient);
     border: none;
     color: var(--color-neutral-1);
@@ -104,6 +104,14 @@ input[type=number] {
     transition: background-color .5s ease;
 }
 
-.calculate:hover {
+.btn-style:hover {
     background-color: var(--color-primary-2);
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
 }
